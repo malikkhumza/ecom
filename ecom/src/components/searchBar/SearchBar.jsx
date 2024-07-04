@@ -40,7 +40,7 @@ function SearchBar() {
       const filterData = searchData.filter((obj)=> obj.name.toLocaleLowerCase().includes(trimmedSearch)).slice(0,8)
 
   return (
-    <div>
+    <div className=''>
         <div className="input flex justify-center">
 
     <input type="text"
