@@ -11,7 +11,8 @@ function Navbar() {
     { name: "All Products", link: "/allproduct" },
     { name: "Signup", link: "/signup" },
     { name: "Cart", link: "/cart" },
-    // {name:"admin", link:"/admin"},
+    // {name:"admin", link:"/admindash"},
+    // {name:"user", link:"/userdash"},
     // {name:"logout", link:"/logout"},
   ];
 
