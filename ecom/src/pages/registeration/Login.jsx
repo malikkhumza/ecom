@@ -1,7 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { myContext } from "../../components/context/context";
+import { useContext } from "react";
+import Loader from "../../components/loader/Loader";
 
 const Login = () => {
+    const navigate = useNavigate();
+    
     return (
         <div className='flex justify-center items-center h-screen'>
             {/* Login Form  */}
